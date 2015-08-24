@@ -1,1 +1,1 @@
-# Getting Started with OS X for Power Users
+# OS X Guide for Power Users
