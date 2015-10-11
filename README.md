@@ -1,5 +1,7 @@
 # OS X Guide for Power Users
 
+![img](https://raw.githubusercontent.com/spmaniato/os-x-power-user-guide/master/img/os-x-atom-finder-terminal.png)
+
 ## Command-line Interface
 
 - OS X, being Unix-based, has a bash shell, accessible via the Terminal app
