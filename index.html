@@ -7,6 +7,116 @@
 
  </head>
 <body>
-<div id=wrapper><h1>OS X Guide for Power Users</h1></div>
+<div id=wrapper><h1>OS X Guide for Power Users</h1>
+
+<p><a href="https://raw.githubusercontent.com/spmaniato/os-x-power-user-guide/master/img/os-x-atom-finder-terminal.png" target="_blank"><img src="https://raw.githubusercontent.com/spmaniato/os-x-power-user-guide/master/img/os-x-atom-finder-terminal.png" alt="img" style="max-width:100%;"></a></p>
+
+<h2>Command-line Interface</h2>
+
+<ul>
+<li>OS X, being Unix-based, has a bash shell, accessible via the Terminal app
+
+<ul>
+<li>I recommend switching to the “Pro” theme (<code>Terminal &gt; Preference &gt; Profiles</code>)</li>
+<li>You can even setup a <code>~/.bash_profile</code> (equivalent of <code>.bashrc</code>)</li>
+</ul>
+</li>
+<li>The file system is also very similar to Ubuntu</li>
+</ul>
+
+<h2>Package Manager</h2>
+
+<ul>
+<li>OS X doesn't come with a package manager</li>
+<li>Install <a href="http://brew.sh/">Homebrew</a> via the one-line Terminal command <g-emoji alias="beer" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f37a.png">🍺</g-emoji>
+
+<ul>
+<li>OS X comes with Ruby (and Python btw), so don’t worry about the <code>ruby</code> command</li>
+<li>However, you do need the “Command Line Tools for Xcode”:
+
+<ul>
+<li>On OS X 10.9 and up, you can do: <code>xcode-select --install</code>
+</li>
+</ul>
+</li>
+<li>If you’ve already installed another package manager (e.g. MacPorts) then do not mix them</li>
+</ul>
+</li>
+<li>Example of usage:</li>
+</ul>
+
+<pre><code>brew update
+brew upgrade
+brew info git
+brew install git
+</code></pre>
+
+<ul>
+<li>Unlike Ubuntu's apt-get, <strong>never use sudo</strong> with Homebrew</li>
+<li>Refer to the <a href="https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/FAQ.md">FAQ</a> for more details</li>
+<li>For even more command line goodness, check out Homebrew <a href="http://caskroom.io/">Cask</a> as well</li>
+</ul>
+
+<h2>Installing Third-Party Apps</h2>
+
+<ul>
+<li>By default, OS X only allows installation of apps from the official App Store</li>
+<li>There are two more options, under <code>System Preferences &gt; Security &amp; Privacy &gt; General</code>
+</li>
+<li>I have mine set up to “Mac App Store and Identified Developers"</li>
+<li>If it still doesn’t let you install something, <em>temporarily</em> set it to “Anywhere”, finish installation, run the app once, and then set it back to a more conservative option.</li>
+</ul>
+
+<h2>Recommended Apps (free)</h2>
+
+<ul>
+<li>These are in addition to the obvious apps, like Skype, Dropbox, etc.</li>
+<li>
+<a href="http://www.sublimetext.com/3">Sublime Text</a> or some other full-featured and hackable text editor.
+
+<ul>
+<li>
+<a href="https://atom.io/">Atom</a> from Github is brand new, modern, and very popular.</li>
+<li>Of course, you can also use <a href="http://www.vim.org/">Vim</a> or <a href="http://emacsformacosx.com/">Emacs</a>, which you can install via Homebrew.</li>
+</ul>
+</li>
+<li>
+<a href="https://www.videolan.org/vlc/">VLC Media Player</a> because Quick Time doesn’t like some video codecs</li>
+<li>
+<a href="http://www.trankynam.com/xtrafinder/">XtraFinder</a> adds a bunch of features that OS X’s Finder (directory browser) lacks</li>
+<li>
+<a href="https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12">TheUnarchiver</a> or <a href="http://www.unrarx.com/">UnRarX</a> because there’s always that one person that sends you <code>.rar</code> or password-protected archives</li>
+<li>
+<a href="http://www.syntevo.com/smartgit/">SmartGit</a> if you prefer to manage Git repos via a GUI as opposed to the command line</li>
+<li>
+<a href="https://gfx.io/">gfxCardStatus</a> if you have a Macbook Pro with two GPUs (integrated and discrete)</li>
+<li>In my opinion “Preview”, which comes with OS X, is far superior to Adobe Reader and even has some Acrobat Pro features. So I don’t think you have to worry about getting a new PDF viewer.</li>
+</ul>
+
+<h3>LaTeX</h3>
+
+<ul>
+<li>LaTeX deserves its own subsection <g-emoji alias="grin" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f601.png">😁</g-emoji>
+</li>
+<li>Install the <a href="https://www.tug.org/mactex/">MacTex</a> distribution (essentially TeX Live)
+
+<ul>
+<li>I think this comes with a bunch of handy utilities like BibDesk (bibliography editor)</li>
+</ul>
+</li>
+<li>Then download an editor. I like <a href="http://pages.uoregon.edu/koch/texshop/obtaining.html">TeXShop</a> (free).
+
+<ul>
+<li>There are fancier editors on the App Store <g-emoji alias="moneybag" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4b0.png">💰</g-emoji>
+</li>
+</ul>
+</li>
+</ul>
+
+<h2>Keyboard Shortcuts</h2>
+
+<ul>
+<li>Coming soon!</li>
+</ul></div>
 </body>
 </html>
