@@ -1,6 +1,6 @@
 # OS X Guide for Power Users
 
-## Command-line interface
+## Command-line Interface
 
 - OS X, being Unix-based, has a bash shell, accessible via the Terminal app
     - I recommend switching to the “Pro” theme (`Terminal > Preference > Profiles`)
@@ -16,24 +16,17 @@
         - On OS X 10.9 and up, you can do: `xcode-select --install`
     - If you’ve already installed another package manager (e.g. MacPorts) then do not mix them
 - Example of usage:
-    ```shell
-    brew update
-    brew upgrade
-    brew info git
-    brew install git
-    ```
+```
+brew update
+brew upgrade
+brew info git
+brew install git
+```
 - Unlike Ubuntu's apt-get, **never use sudo** with Homebrew
 - Refer to the [FAQ](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/FAQ.md) for more details
 - For even more command line goodness, check out Homebrew [Cask](http://caskroom.io/) as well
 
-## LaTeX
-
-- Install the [MacTex](https://www.tug.org/mactex/) distribution (essentially TeX Live)
-    - I think this comes with a bunch of handy utilities like BibDesk (bibliography editor)
-- Then download an editor. I like [TeXShop](http://pages.uoregon.edu/koch/texshop/obtaining.html) (free).
-    - There are fancier editors on the App Store 💰
-
-## Installing 3rd party apps
+## Installing Third-Party Apps
 
 - By default, OS X only allows installation of apps from the official App Store
 - There are two more options, under `System Preferences > Security & Privacy > General`
@@ -52,6 +45,14 @@
 - [SmartGit](http://www.syntevo.com/smartgit/) if you prefer to manage Git repos via a GUI as opposed to the command line
 - [gfxCardStatus](https://gfx.io/) if you have a Macbook Pro with two GPUs (integrated and discrete)
 - In my opinion “Preview”, which comes with OS X, is far superior to Adobe Reader and even has some Acrobat Pro features. So I don’t think you have to worry about getting a new PDF viewer.
+
+### LaTeX
+
+- LaTeX deserves its own subsection 😁
+- Install the [MacTex](https://www.tug.org/mactex/) distribution (essentially TeX Live)
+    - I think this comes with a bunch of handy utilities like BibDesk (bibliography editor)
+- Then download an editor. I like [TeXShop](http://pages.uoregon.edu/koch/texshop/obtaining.html) (free).
+    - There are fancier editors on the App Store 💰
 
 ## Keyboard Shortcuts
 
